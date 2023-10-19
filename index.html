@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p id="countdown">5:00</p>
+        <h1>Driving License Test</h1>
+    </header>
+    <main>
+        <div class="question-container">
+            <img src="img1.png">
+            <div class="question">
+                <h2>What does this traffic sign mean?</h2>
+                <label><input type="radio" name="answer1" correct value="Overtaking prohibited for trucks"> Overtaking prohibited for trucks.</label>
+                <label><input type="radio" name="answer1" value="Parking prohibited for trucks"> Parking prohibited for trucks.</label>
+                <label><input type="radio" name="answer1" value="Mandatory lane for trucks"> Mandatory lane for trucks.</label>
+                <label><input type="radio" name="answer1" value="Warning for trucks"> Warning for trucks.</label>
+            </div>
+        </div>
+        <div class="question-container">
+            <img src="img2.png">
+            <div class="question">
+                <h2>What does this traffic sign mean?</h2>
+                <label><input type="radio" name="answer2" value="Pedestrians and cyclists prohibited"> Pedestrians and cyclists prohibited.</label>
+                <label><input type="radio" name="answer2" value="Warning for an uncontrolled crossroad"> Warning for an uncontrolled crossroad.</label>
+                <label><input type="radio" name="answer2" correct value="Begin of a priority road"> Begin of a priority road.</label>
+                <label><input type="radio" name="answer2" value="Begin of an expressway"> Begin of an expressway.</label>
+            </div>
+        </div>
+        <div class="question-container">
+            <img src="img3.png">
+            <div class="question">
+                <h2>What does this traffic sign mean?</h2>
+                <label><input type="radio" name="answer3" correct value="Begin of a minimum speed"> Begin of a minimum speed.</label>
+                <label><input type="radio" name="answer3" value="Begin of a speed limit"> Begin of a speed limit.</label>
+                <label><input type="radio" name="answer3" value="Warning for a limited weight"> Warning for a limited weight.</label>
+                <label><input type="radio" name="answer3" value="Begin of an advisory speed limit"> Begin of an advisory speed limit.</label>
+            </div>
+        </div>
+        <div class="question-container">
+            <img src="img4.png">
+            <div class="question">
+                <h2>What does this traffic sign mean?</h2>
+                <label><input type="radio" name="answer4" value="Tractors prohibited"> Tractors prohibited.</label>
+                <label><input type="radio" name="answer4" correct value="Warning for tractors"> Warning for tractors.</label>
+                <label><input type="radio" name="answer4" value="Warning for trucks"> Warning for trucks.</label>
+                <label><input type="radio" name="answer4" value="Mandatory lane for tractors"> Mandatory lane for tractors.</label>
+            </div>
+        </div>
+        <button id="submitBtn">Submit</button>
+        <div id="timeup-container">
+            <div id="timeup">
+                <p>Time's up!</p>
+                <button id="tryagain">Try again</button>
+            </div>
+        </div>
+        <div id="congratulations-container">
+            <div id="congratulations">
+                <p>Congratulations!</p>
+            </div>
+        </div>
+        <div id="failed-container">
+            <div id="failed">
+                <p>You failed!</p>
+                <button id="tryagain-failed">Try again</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
